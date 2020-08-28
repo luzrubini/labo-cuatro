@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "posinstall": "ng build --aot --prod",
+    "posinstall": "ng build --output-path angularapp --aot --prod",
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
@@ -50,7 +50,7 @@
     "typescript": "~3.9.5"
   },
   "engines": {
-    "node": "v12.16.1",
+    "node": "12.16.1",
     "npm": "6.13.4"
   }
 }
