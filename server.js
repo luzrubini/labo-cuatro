@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const express = require('path');
-const { reduceEachLeadingCommentRange } = require('typescript');
 
 app.use(express.static(__dirname + '/angularapp'));
 
